@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="logo">
-              <Image src="/logo.png" alt="Peptides Cost Plus" width={72} height={72} className="logo-mark" />
+              <Image src="/logo.png" alt="Peptides Cost Plus" width={137} height={100} className="logo-mark" />
             </div>
             <p>
               Transparent, cost-plus pricing on lab-verified peptide

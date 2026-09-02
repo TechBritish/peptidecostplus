@@ -6,7 +6,7 @@ export default function Header() {
     <header>
       <div className="nav">
         <Link href="/" className="logo">
-          <Image src="/logo.png" alt="Peptides Cost Plus" width={120} height={120} className="logo-mark" priority />
+          <Image src="/logo.png" alt="Peptides Cost Plus" width={120} height={87} className="logo-mark" priority />
         </Link>
         <nav className="nav-links">
           <Link href="/shop">Shop</Link>
