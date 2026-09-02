@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 220" fill="none">
+  <rect x="42" y="8" width="36" height="18" rx="3" fill="#16233B"/>
+  <rect x="46" y="24" width="28" height="10" rx="2" fill="#1F7A5C"/>
+  <path d="M38 36h44l6 14v132c0 14-12 26-28 26s-28-12-28-26V50l6-14z" fill="#F9F9F5" stroke="#1F7A5C" stroke-width="3"/>
+  <path d="M44 92h32v70c0 10-7 18-16 18s-16-8-16-18V92z" fill="#E4EFE9"/>
+  <rect x="22" y="48" width="76" height="52" rx="3" fill="#16233B" transform="rotate(-8 60 74)"/>
+  <text x="60" y="68" text-anchor="middle" fill="#F9F9F5" font-family="IBM Plex Mono, monospace" font-size="8" font-weight="700">PEPTIDES</text>
+  <text x="60" y="80" text-anchor="middle" fill="#E4EFE9" font-family="IBM Plex Mono, monospace" font-size="6.5">COST PLUS</text>
+  <text x="60" y="92" text-anchor="middle" fill="#1F7A5C" font-family="IBM Plex Mono, monospace" font-size="6">LOT VERIFIED</text>
+</svg>
