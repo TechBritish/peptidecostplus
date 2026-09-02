@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { CATEGORIES } from "@/lib/products-db";
+import { CATEGORIES } from "@/lib/categories";
 import type { Product, ProductVariant } from "@/lib/product-types";
 
 type VariantRow = {

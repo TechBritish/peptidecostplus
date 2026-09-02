@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { listProducts, formatMoney, CATEGORIES } from "@/lib/products-db";
+import { listProducts, formatMoney } from "@/lib/products-db";
+import { CATEGORIES } from "@/lib/categories";
 import type { CategoryKey } from "@/lib/product-types";
 import { deleteProductAction } from "@/app/admin/actions";
 
