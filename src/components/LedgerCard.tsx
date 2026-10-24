@@ -28,15 +28,15 @@ export default function LedgerCard({
           <span>{formatMoney(product.cost)}</span>
         </div>
         <div className={`ledger-row margin${highlight === "vial" ? " is-active" : ""}`}>
-          <span>1 vial · +35%</span>
+          <span>1 vial · +37.5%</span>
           <span>{formatMoney(product.prices.vial)}</span>
         </div>
         <div className={`ledger-row margin${highlight === "threeMonth" ? " is-active" : ""}`}>
-          <span>3-month ({VIALS_IN_3_MONTH} vials) · +25%</span>
+          <span>3-month ({VIALS_IN_3_MONTH} vials) · +30%</span>
           <span>{formatMoney(product.prices.threeMonth)}</span>
         </div>
         <div className={`ledger-row margin${highlight === "bulk" ? " is-active" : ""}`}>
-          <span>Bulk ({VIALS_IN_BULK} vials) · +15%</span>
+          <span>Bulk ({VIALS_IN_BULK} vials) · +22.5%</span>
           <span>{formatMoney(product.prices.bulk)}</span>
         </div>
         <div className="ledger-total">

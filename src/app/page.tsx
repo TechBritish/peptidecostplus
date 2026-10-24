@@ -89,8 +89,8 @@ export default async function Home() {
               <span className="num">01 / SUPPLY</span>
               <h3>Pick a size that fits</h3>
               <p>
-                Start with one vial at cost plus 35%. Move to a 3-month
-                protocol at plus 25%, or bulk at plus 15%. Volume is optional.
+                Start with one vial at cost plus 37.5%. Move to a 3-month
+                protocol at plus 30%, or bulk at plus 22.5%. Volume is optional.
               </p>
             </div>
             <div className="how-step">

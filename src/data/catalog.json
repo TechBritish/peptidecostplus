@@ -77,7 +77,7 @@
     "category": "glp1",
     "sourcing": 20.66,
     "testing": 7.67,
-    "packaging": 5.0
+    "packaging": 5
   },
   {
     "slug": "mazdutide-10mg",
@@ -105,9 +105,9 @@
     "dose": "10 mg",
     "sku": "PC-RETA-10",
     "category": "glp1",
-    "sourcing": 24.8,
-    "testing": 9.2,
-    "packaging": 6.0
+    "sourcing": 14.87,
+    "testing": 5.52,
+    "packaging": 3.6
   },
   {
     "slug": "retatrutide-15mg",
@@ -125,9 +125,9 @@
     "dose": "20 mg",
     "sku": "PC-RETA-20",
     "category": "glp1",
-    "sourcing": 40.88,
-    "testing": 15.16,
-    "packaging": 9.89
+    "sourcing": 19.65,
+    "testing": 7.29,
+    "packaging": 4.75
   },
   {
     "slug": "retatrutide-30mg",
@@ -145,9 +145,9 @@
     "dose": "40 mg",
     "sku": "PC-RETA-40",
     "category": "glp1",
-    "sourcing": 73.02,
-    "testing": 27.09,
-    "packaging": 17.67
+    "sourcing": 23.86,
+    "testing": 8.85,
+    "packaging": 5.78
   },
   {
     "slug": "retatrutide-50mg",
@@ -196,9 +196,9 @@
     "dose": "20 mg",
     "sku": "PC-SEMA-20",
     "category": "glp1",
-    "sourcing": 40.88,
-    "testing": 15.16,
-    "packaging": 9.89
+    "sourcing": 16.42,
+    "testing": 6.09,
+    "packaging": 3.98
   },
   {
     "slug": "semaglutide-30mg",
@@ -246,9 +246,9 @@
     "dose": "15 mg",
     "sku": "PC-TIRZ-15",
     "category": "glp1",
-    "sourcing": 26.41,
-    "testing": 9.8,
-    "packaging": 6.38
+    "sourcing": 14.87,
+    "testing": 5.52,
+    "packaging": 3.6
   },
   {
     "slug": "tirzepatide-20mg",
@@ -266,9 +266,9 @@
     "dose": "30 mg",
     "sku": "PC-TIRZ-30",
     "category": "glp1",
-    "sourcing": 36.74,
-    "testing": 13.63,
-    "packaging": 8.89
+    "sourcing": 20.14,
+    "testing": 7.47,
+    "packaging": 4.88
   },
   {
     "slug": "tirzepatide-40mg",
@@ -306,9 +306,9 @@
     "dose": "60 mg",
     "sku": "PC-TIRZ-60",
     "category": "glp1",
-    "sourcing": 50.06,
-    "testing": 18.57,
-    "packaging": 12.11
+    "sourcing": 27.89,
+    "testing": 10.35,
+    "packaging": 6.74
   },
   {
     "slug": "5-amino-1mq-5mg",
@@ -326,9 +326,9 @@
     "dose": "10 mg",
     "sku": "PC-5AMI-10",
     "category": "performance",
-    "sourcing": 5.97,
-    "testing": 2.21,
-    "packaging": 1.45
+    "sourcing": 11.62,
+    "testing": 4.31,
+    "packaging": 2.8
   },
   {
     "slug": "aod-9604-5mg",
@@ -339,6 +339,16 @@
     "sourcing": 9.88,
     "testing": 3.66,
     "packaging": 2.39
+  },
+  {
+    "slug": "aod-9604-10mg",
+    "name": "AOD-9604",
+    "dose": "10 mg",
+    "sku": "PC-AOD9-10",
+    "category": "performance",
+    "sourcing": 17.45,
+    "testing": 6.47,
+    "packaging": 4.22
   },
   {
     "slug": "aod-9604-50mg",
@@ -356,9 +366,9 @@
     "dose": "10 mg",
     "sku": "PC-ARA2-10",
     "category": "performance",
-    "sourcing": 8.26,
-    "testing": 3.07,
-    "packaging": 2.0
+    "sourcing": 13.94,
+    "testing": 5.17,
+    "packaging": 3.38
   },
   {
     "slug": "bpc-157-5mg",
@@ -377,9 +387,9 @@
     "dose": "10 mg",
     "sku": "PC-BPC1-10",
     "category": "performance",
-    "sourcing": 11.48,
-    "testing": 4.26,
-    "packaging": 2.78
+    "sourcing": 13.04,
+    "testing": 4.84,
+    "packaging": 3.15
   },
   {
     "slug": "bpc-157-15mg",
@@ -397,9 +407,9 @@
     "dose": "10 mg",
     "sku": "PC-CJC1-10",
     "category": "performance",
-    "sourcing": 16.08,
-    "testing": 5.96,
-    "packaging": 3.89
+    "sourcing": 16.89,
+    "testing": 6.26,
+    "packaging": 4.09
   },
   {
     "slug": "cjc-1295-dac-5mg",
@@ -418,9 +428,9 @@
     "dose": "5 mg",
     "sku": "PC-DELT-5",
     "category": "performance",
-    "sourcing": 9.88,
-    "testing": 3.66,
-    "packaging": 2.39
+    "sourcing": 12.08,
+    "testing": 4.48,
+    "packaging": 2.92
   },
   {
     "slug": "delta-sleep-inducing-peptide-dsip-10mg",
@@ -428,9 +438,9 @@
     "dose": "10 mg",
     "sku": "PC-DELT-10",
     "category": "performance",
-    "sourcing": 20.21,
-    "testing": 7.5,
-    "packaging": 4.88
+    "sourcing": 13.63,
+    "testing": 5.06,
+    "packaging": 3.3
   },
   {
     "slug": "epithalon-10mg",
@@ -438,9 +448,9 @@
     "dose": "10 mg",
     "sku": "PC-EPIT-10",
     "category": "performance",
-    "sourcing": 7.12,
-    "testing": 2.64,
-    "packaging": 1.72
+    "sourcing": 13.01,
+    "testing": 4.83,
+    "packaging": 3.14
   },
   {
     "slug": "epithalon-50mg",
@@ -448,9 +458,9 @@
     "dose": "50 mg",
     "sku": "PC-EPIT-50",
     "category": "performance",
-    "sourcing": 26.41,
-    "testing": 9.8,
-    "packaging": 6.38
+    "sourcing": 22,
+    "testing": 8.16,
+    "packaging": 5.32
   },
   {
     "slug": "follistatin-1mg",
@@ -468,9 +478,9 @@
     "dose": "50 mg",
     "sku": "PC-GHKC-50",
     "category": "performance",
-    "sourcing": 9.88,
-    "testing": 3.66,
-    "packaging": 2.39
+    "sourcing": 11.77,
+    "testing": 4.37,
+    "packaging": 2.84
   },
   {
     "slug": "ghk-cu-70mg",
@@ -508,9 +518,9 @@
     "dose": "10 mg",
     "sku": "PC-GHRP-10-2",
     "category": "performance",
-    "sourcing": 11.94,
-    "testing": 4.43,
-    "packaging": 2.89
+    "sourcing": 11,
+    "testing": 4.08,
+    "packaging": 2.66
   },
   {
     "slug": "ghrp-6-5mg",
@@ -528,9 +538,9 @@
     "dose": "10 mg",
     "sku": "PC-GHRP-10",
     "category": "performance",
-    "sourcing": 11.94,
-    "testing": 4.43,
-    "packaging": 2.89
+    "sourcing": 11,
+    "testing": 4.08,
+    "packaging": 2.66
   },
   {
     "slug": "gonadorelin-2mg",
@@ -558,9 +568,9 @@
     "dose": "1 mg",
     "sku": "PC-IGF1-1",
     "category": "performance",
-    "sourcing": 17.91,
-    "testing": 6.64,
-    "packaging": 4.34
+    "sourcing": 20.92,
+    "testing": 7.76,
+    "packaging": 5.06
   },
   {
     "slug": "igf-1-lr3-2mg",
@@ -599,9 +609,9 @@
     "dose": "10 mg",
     "sku": "PC-IPAM-10",
     "category": "performance",
-    "sourcing": 17.91,
-    "testing": 6.64,
-    "packaging": 4.34
+    "sourcing": 13.32,
+    "testing": 4.94,
+    "packaging": 3.22
   },
   {
     "slug": "kisspeptin-5mg",
@@ -619,9 +629,9 @@
     "dose": "10 mg",
     "sku": "PC-KISS-10",
     "category": "performance",
-    "sourcing": 13.32,
-    "testing": 4.94,
-    "packaging": 3.22
+    "sourcing": 12.54,
+    "testing": 4.65,
+    "packaging": 3.04
   },
   {
     "slug": "kpv-10mg",
@@ -629,19 +639,19 @@
     "dose": "10 mg",
     "sku": "PC-KPV-10",
     "category": "performance",
-    "sourcing": 18.14,
-    "testing": 6.73,
-    "packaging": 4.39
+    "sourcing": 12.86,
+    "testing": 4.77,
+    "packaging": 3.1
   },
   {
-    "slug": "ll-37-10mg",
+    "slug": "ll-37-5mg",
     "name": "LL-37",
-    "dose": "10 mg",
-    "sku": "PC-LL37-10",
+    "dose": "5 mg",
+    "sku": "PC-LL37-5",
     "category": "performance",
-    "sourcing": 27.09,
-    "testing": 10.05,
-    "packaging": 6.56
+    "sourcing": 13.78,
+    "testing": 5.11,
+    "packaging": 3.34
   },
   {
     "slug": "melanotan-1-10mg",
@@ -649,9 +659,9 @@
     "dose": "10 mg",
     "sku": "PC-MELA-10",
     "category": "performance",
-    "sourcing": 8.04,
-    "testing": 2.98,
-    "packaging": 1.94
+    "sourcing": 11.3,
+    "testing": 4.19,
+    "packaging": 2.74
   },
   {
     "slug": "melanotan-2-10mg",
@@ -659,9 +669,9 @@
     "dose": "10 mg",
     "sku": "PC-MELA-10-2",
     "category": "performance",
-    "sourcing": 8.04,
-    "testing": 2.98,
-    "packaging": 1.94
+    "sourcing": 10.69,
+    "testing": 3.96,
+    "packaging": 2.59
   },
   {
     "slug": "mgf-2mg",
@@ -679,9 +689,9 @@
     "dose": "10 mg",
     "sku": "PC-MOTS-10",
     "category": "performance",
-    "sourcing": 9.42,
-    "testing": 3.49,
-    "packaging": 2.28
+    "sourcing": 13.38,
+    "testing": 4.96,
+    "packaging": 3.25
   },
   {
     "slug": "mots-c-40mg",
@@ -689,9 +699,9 @@
     "dose": "40 mg",
     "sku": "PC-MOTS-40",
     "category": "performance",
-    "sourcing": 39.04,
-    "testing": 14.48,
-    "packaging": 9.44
+    "sourcing": 29.9,
+    "testing": 11.09,
+    "packaging": 7.24
   },
   {
     "slug": "nad-plus-100mg",
@@ -719,9 +729,9 @@
     "dose": "1000 mg",
     "sku": "PC-NADX-1000",
     "category": "performance",
-    "sourcing": 32.61,
-    "testing": 12.1,
-    "packaging": 7.88
+    "sourcing": 16.73,
+    "testing": 6.21,
+    "packaging": 4.04
   },
   {
     "slug": "oxytocin-2mg",
@@ -739,9 +749,9 @@
     "dose": "10 mg",
     "sku": "PC-OXYT-10",
     "category": "performance",
-    "sourcing": 6.43,
-    "testing": 2.39,
-    "packaging": 1.55
+    "sourcing": 13.63,
+    "testing": 5.06,
+    "packaging": 3.3
   },
   {
     "slug": "peg-mgf-2mg",
@@ -759,9 +769,9 @@
     "dose": "10 mg",
     "sku": "PC-PT14-10",
     "category": "performance",
-    "sourcing": 9.88,
-    "testing": 3.66,
-    "packaging": 2.39
+    "sourcing": 14.87,
+    "testing": 5.52,
+    "packaging": 3.6
   },
   {
     "slug": "selank-5mg",
@@ -779,9 +789,9 @@
     "dose": "10 mg",
     "sku": "PC-SELA-10",
     "category": "performance",
-    "sourcing": 12.63,
-    "testing": 4.69,
-    "packaging": 3.05
+    "sourcing": 13.32,
+    "testing": 4.94,
+    "packaging": 3.22
   },
   {
     "slug": "semax-5mg",
@@ -799,9 +809,9 @@
     "dose": "10 mg",
     "sku": "PC-SEMA-10-2",
     "category": "performance",
-    "sourcing": 20.21,
-    "testing": 7.5,
-    "packaging": 4.88
+    "sourcing": 13.32,
+    "testing": 4.94,
+    "packaging": 3.22
   },
   {
     "slug": "sermorelin-5mg",
@@ -830,9 +840,9 @@
     "dose": "5 mg",
     "sku": "PC-SLUP-5",
     "category": "performance",
-    "sourcing": 9.72,
-    "testing": 3.6,
-    "packaging": 2.35
+    "sourcing": 14.81,
+    "testing": 5.49,
+    "packaging": 3.58
   },
   {
     "slug": "ss-31-10mg",
@@ -850,9 +860,9 @@
     "dose": "50 mg",
     "sku": "PC-SS31-50",
     "category": "performance",
-    "sourcing": 32.61,
-    "testing": 12.1,
-    "packaging": 7.88
+    "sourcing": 40.29,
+    "testing": 14.95,
+    "packaging": 9.74
   },
   {
     "slug": "tb-500-5mg",
@@ -871,9 +881,9 @@
     "dose": "10 mg",
     "sku": "PC-TB50-10",
     "category": "performance",
-    "sourcing": 20.21,
-    "testing": 7.5,
-    "packaging": 4.88
+    "sourcing": 21.38,
+    "testing": 7.93,
+    "packaging": 5.18
   },
   {
     "slug": "tb-500-16mg",
@@ -901,9 +911,9 @@
     "dose": "10 mg",
     "sku": "PC-TESA-10",
     "category": "performance",
-    "sourcing": 22.51,
-    "testing": 8.35,
-    "packaging": 5.44
+    "sourcing": 23.86,
+    "testing": 8.85,
+    "packaging": 5.78
   },
   {
     "slug": "tesamorelin-15mg",
@@ -923,7 +933,7 @@
     "category": "performance",
     "sourcing": 45.46,
     "testing": 16.87,
-    "packaging": 11.0
+    "packaging": 11
   },
   {
     "slug": "thymalin-10mg",
@@ -941,9 +951,9 @@
     "dose": "5 mg",
     "sku": "PC-THYM-5",
     "category": "performance",
-    "sourcing": 9.88,
-    "testing": 3.66,
-    "packaging": 2.39
+    "sourcing": 15.83,
+    "testing": 5.87,
+    "packaging": 3.83
   },
   {
     "slug": "thymosin-alpha-1-10mg",
@@ -971,9 +981,9 @@
     "dose": "10 mg",
     "sku": "PC-VIP-10",
     "category": "performance",
-    "sourcing": 13.44,
-    "testing": 4.98,
-    "packaging": 3.25
+    "sourcing": 15.96,
+    "testing": 5.92,
+    "packaging": 3.86
   },
   {
     "slug": "bpc-157-tb-500-5mg-plus-5mg",
@@ -991,9 +1001,9 @@
     "dose": "10 + 10 mg",
     "sku": "PC-BPC1-10-2",
     "category": "blends",
-    "sourcing": 26.41,
-    "testing": 9.8,
-    "packaging": 6.38
+    "sourcing": 18.28,
+    "testing": 6.78,
+    "packaging": 4.42
   },
   {
     "slug": "cjc-1295-plus-ipamorelin-5mg-plus-5mg",
@@ -1011,9 +1021,9 @@
     "dose": "10 + 10 mg",
     "sku": "PC-CJC1-10-2",
     "category": "blends",
-    "sourcing": 24.34,
-    "testing": 9.03,
-    "packaging": 5.89
+    "sourcing": 19.52,
+    "testing": 7.24,
+    "packaging": 4.72
   },
   {
     "slug": "cjc-1295-plus-ipamorelin-12mg-plus-12mg",
@@ -1031,9 +1041,9 @@
     "dose": "10 + 50 + 10 mg",
     "sku": "PC-GLOW-10",
     "category": "blends",
-    "sourcing": 20.21,
-    "testing": 7.5,
-    "packaging": 4.88
+    "sourcing": 20.92,
+    "testing": 7.76,
+    "packaging": 5.06
   },
   {
     "slug": "glow-bpc-157-10mg-plus-ghk-cu-70mg-plus-tb-500-10mg",
@@ -1051,9 +1061,9 @@
     "dose": "5 + 5 mg",
     "sku": "PC-TESA-5-2",
     "category": "blends",
-    "sourcing": 16.08,
-    "testing": 5.96,
-    "packaging": 3.89
+    "sourcing": 21.22,
+    "testing": 7.87,
+    "packaging": 5.14
   },
   {
     "slug": "tesamorelin-plus-ipamorelin-12mg-plus-3mg",
@@ -1061,7 +1071,7 @@
     "dose": "12 + 3 mg",
     "sku": "PC-TESA-12",
     "category": "blends",
-    "sourcing": 26.0,
+    "sourcing": 26,
     "testing": 9.64,
     "packaging": 6.29
   },
@@ -1091,9 +1101,9 @@
     "dose": "10 + 50 + 10 + 10 mg",
     "sku": "PC-KLOW-10",
     "category": "blends",
-    "sourcing": 26.41,
-    "testing": 9.8,
-    "packaging": 6.38
+    "sourcing": 22.78,
+    "testing": 8.45,
+    "packaging": 5.5
   },
   {
     "slug": "pt-141-kisspeptin-pinealon-5mg-plus-2mg-plus-3mg",
@@ -1121,9 +1131,9 @@
     "dose": "10 + 10 mg",
     "sku": "PC-SELA-10-2",
     "category": "blends",
-    "sourcing": 51.16,
-    "testing": 18.98,
-    "packaging": 12.38
+    "sourcing": 19.21,
+    "testing": 7.13,
+    "packaging": 4.64
   },
   {
     "slug": "thymosin-alpha-1-plus-thymulin-10mg-plus-6mg",
@@ -1161,8 +1171,8 @@
     "dose": "20 mg",
     "sku": "PC-PINE-20",
     "category": "bioregulators",
-    "sourcing": 15.5,
-    "testing": 5.75,
-    "packaging": 3.75
+    "sourcing": 17.47,
+    "testing": 6.48,
+    "packaging": 4.23
   }
 ]

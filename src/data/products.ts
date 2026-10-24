@@ -11,9 +11,9 @@ export const CATEGORIES: { key: CategoryKey | "all"; label: string }[] = [
 ];
 
 export const MARGIN = {
-  vial: 0.35,
-  threeMonth: 0.25,
-  bulk: 0.15,
+  vial: 0.375,
+  threeMonth: 0.30,
+  bulk: 0.225,
 } as const;
 
 export const VIALS_IN_3_MONTH = 3;

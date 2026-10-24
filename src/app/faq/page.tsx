@@ -18,7 +18,7 @@ export default function FAQPage() {
       </section>
       <section className="legal-content wrap">
         <h2>Can I buy a single vial, or do I have to take 3 months?</h2>
-        <p>You can buy one vial. One vial is cost plus 35%. A 3-month protocol is plus 25%. Bulk is plus 15%. Volume is optional — we don&apos;t want to lose people who only need a single vial.</p>
+        <p>You can buy one vial. One vial is cost plus 37.5%. A 3-month protocol is plus 30%. Bulk is plus 22.5%. Volume is optional — we don&apos;t want to lose people who only need a single vial.</p>
 
         <h2>How does your pricing actually work?</h2>
         <p>Every product page shows a full cost breakdown — sourcing and raw material cost, third-party lab testing, cold-chain packaging and shipping — then three published margins on that same cost. That&apos;s the same math on every SKU.</p>

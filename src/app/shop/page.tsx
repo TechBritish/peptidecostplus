@@ -33,8 +33,8 @@ export default async function ShopPage({
           <span className="eyebrow">{total} products, published costs</span>
           <h1>Shop the catalog</h1>
           <p>
-            One vial at cost plus 35%. A 3-month protocol at plus 25%. Bulk at
-            plus 15%. Same lot, same ledger — volume is optional.
+            One vial at cost plus 37.5%. A 3-month protocol at plus 30%. Bulk at
+            plus 22.5%. Same lot, same ledger — volume is optional.
           </p>
         </div>
       </section>

@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "The Cost-Plus Difference — Peptides Cost Plus",
   description:
-    "How our published cost-plus pricing works: one vial +35%, 3-month +25%, bulk +15%.",
+    "How our published cost-plus pricing works: one vial +37.5%, 3-month +30%, bulk +22.5%.",
 };
 
 export default async function CostPlusDifferencePage() {

@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <span>© 2026 Peptides Cost Plus. All rights reserved.</span>
-          <span>1 vial +35% · 3-month +25% · bulk +15%.</span>
+          <span>1 vial +37.5% · 3-month +30% · bulk +22.5%.</span>
         </div>
       </div>
     </footer>
