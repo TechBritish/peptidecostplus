@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Shop — Peptides Cost Plus",
   description:
-    "Browse lab-verified peptide SKUs. Buy one vial, a 3-month protocol, or bulk — same cost base, published margin.",
+    "Browse lab-verified peptide SKUs. Cost per vial 1 (+37.5%), vial 2 (+30%), vial 3 (+22.5%) — same cost base, published margin.",
 };
 
 export default async function ShopPage({

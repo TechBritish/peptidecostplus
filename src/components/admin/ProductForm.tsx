@@ -90,7 +90,8 @@ export default function ProductForm({
       <h3 className="admin-form-subhead">Dose variants</h3>
       <p className="admin-form-hint">
         Each dose is a separate SKU. Public prices are computed automatically:
-        vial +37.5%, 3-month +30%, bulk +22.5% over cost.
+        Cost per vial 1 +37.5%, Cost per vial 2 +30%, Cost per vial 3 +22.5% over cost
+        (unless an exact override price is set).
       </p>
       {variants.map((v, i) => (
         <div className="admin-form-grid admin-form-grid-3" key={i}>

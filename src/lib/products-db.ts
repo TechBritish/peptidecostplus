@@ -36,7 +36,7 @@ export function toProduct(doc: ProductDocument): Product {
     variants,
     description:
       doc.description ||
-      `${doc.name} from a tracked, lab-verified lot. Buy one vial, a 3-month protocol, or bulk — same cost base; margin falls as volume rises.`,
+      `${doc.name} from a tracked, lab-verified lot. Cost per vial 1, vial 2, or vial 3 — same cost base; margin falls as volume rises.`,
     image: doc.image,
     imageHover: doc.imageHover,
     dose: defaultVariant.dose,
