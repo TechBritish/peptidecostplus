@@ -17,8 +17,8 @@ export default function MembershipPage() {
           <h1>Apply for membership</h1>
           <p>
             The catalog and published ledgers are public. Membership is how we
-            invoice, ship, and apply 3-month or bulk pricing. Fill this in and
-            we will follow up.
+            invoice, ship, and apply Cost per vial 2 or Cost per vial 3
+            pricing. Fill this in and we will follow up.
           </p>
         </div>
       </section>
@@ -44,9 +44,9 @@ export default function MembershipPage() {
           <label>
             Typical volume
             <select name="volume" defaultValue="vial">
-              <option value="vial">Mostly 1 vial</option>
-              <option value="three-month">3-month protocols</option>
-              <option value="bulk">Bulk / recurring</option>
+              <option value="vial">Mostly Cost per vial 1</option>
+              <option value="three-month">Cost per vial 2</option>
+              <option value="bulk">Cost per vial 3 / recurring</option>
             </select>
           </label>
           <label>

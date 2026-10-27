@@ -12,7 +12,7 @@ export default function Footer() {
             </div>
             <p>
               Transparent, cost-plus pricing on lab-verified peptide
-              supplies. One vial, 3-month, or bulk — same published ledger.
+              supplies. Cost per vial 1, 2, or 3 — same published ledger.
             </p>
           </div>
           <div>
@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <span>© 2026 Peptides Cost Plus. All rights reserved.</span>
-          <span>1 vial +37.5% · 3-month +30% · bulk +22.5%.</span>
+          <span>Cost per vial 1 +37.5% · Cost per vial 2 +30% · Cost per vial 3 +22.5%.</span>
         </div>
       </div>
     </footer>

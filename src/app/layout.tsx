@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Peptides Cost Plus",
   description:
-    "Transparent, cost-plus pricing on lab-verified peptide supplies. One vial, 3-month, or bulk — same published ledger.",
+    "Transparent, cost-plus pricing on lab-verified peptide supplies. Cost per vial 1, 2, or 3 — same published ledger.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

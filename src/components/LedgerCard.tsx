@@ -24,7 +24,7 @@ export default function LedgerCard({
           </div>
         ))}
         <div className="ledger-row">
-          <span>Base cost per vial</span>
+          <span>Published base cost</span>
           <span>{formatMoney(product.cost)}</span>
         </div>
         <div className={`ledger-row margin${highlight === "vial" ? " is-active" : ""}`}>
@@ -40,7 +40,7 @@ export default function LedgerCard({
           <span>{formatMoney(product.prices.bulk)}</span>
         </div>
         <div className="ledger-total">
-          <span className="label">Starting at vial 1</span>
+          <span className="label">Starting at Cost per vial 1</span>
           <span className="amount">{formatMoney(product.prices.vial)}</span>
         </div>
       </div>

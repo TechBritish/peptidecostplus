@@ -44,7 +44,7 @@ export default async function Home() {
       <div className="trust-strip">
         <div className="wrap">
           <div className="trust-item"><span className="dot" />Third-party lab-tested, every batch</div>
-          <div className="trust-item"><span className="dot" />1 vial, 3-month, or bulk — same ledger</div>
+          <div className="trust-item"><span className="dot" />Cost per vial 1, 2, or 3 — same ledger</div>
           <div className="trust-item"><span className="dot" />Warranty-backed on every order</div>
           <div className="trust-item"><span className="dot" />Support from people who know peptides</div>
         </div>
@@ -89,8 +89,9 @@ export default async function Home() {
               <span className="num">01 / SUPPLY</span>
               <h3>Pick a size that fits</h3>
               <p>
-                Start with one vial at cost plus 37.5%. Move to a 3-month
-                protocol at plus 30%, or bulk at plus 22.5%. Volume is optional.
+                Start with Cost per vial 1 at cost plus 37.5%. Move to Cost
+                per vial 2 at plus 30%, or Cost per vial 3 at plus 22.5%.
+                Volume is optional.
               </p>
             </div>
             <div className="how-step">
