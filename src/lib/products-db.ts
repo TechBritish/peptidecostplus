@@ -10,7 +10,11 @@ export type { Product, CategoryKey } from "@/lib/product-types";
 
 export function toProduct(doc: ProductDocument): Product {
   const variants = doc.variants.map((v) => {
-    const pricing = computePricing(v.sourcing, v.testing, v.packaging);
+    const pricing = computePricing(v.sourcing, v.testing, v.packaging, {
+      price1: v.price1,
+      price2: v.price2,
+      price3: v.price3,
+    });
     return {
       dose: v.dose,
       sku: v.sku,
@@ -123,6 +127,9 @@ export type ProductVariantInput = {
   sourcing: number;
   testing: number;
   packaging: number;
+  price1?: number;
+  price2?: number;
+  price3?: number;
 };
 
 export async function createProduct(data: {

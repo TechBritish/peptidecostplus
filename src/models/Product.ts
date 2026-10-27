@@ -9,6 +9,9 @@ export interface ProductVariantDocument {
   sourcing: number;
   testing: number;
   packaging: number;
+  price1?: number;
+  price2?: number;
+  price3?: number;
 }
 
 export interface ProductDocument extends mongoose.Document {
@@ -32,6 +35,9 @@ const ProductVariantSchema = new Schema<ProductVariantDocument>(
     sourcing: { type: Number, required: true },
     testing: { type: Number, required: true },
     packaging: { type: Number, required: true },
+    price1: { type: Number },
+    price2: { type: Number },
+    price3: { type: Number },
   },
   { _id: false },
 );

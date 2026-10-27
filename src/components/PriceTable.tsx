@@ -1,17 +1,16 @@
 import { formatMoney } from "@/lib/pricing";
-import { VIALS_IN_3_MONTH, VIALS_IN_BULK } from "@/lib/pricing";
 import type { Product } from "@/lib/products-db";
 
 const ROWS = [
-  { key: "vial" as const, label: "1 vial", note: "+37.5% margin" },
+  { key: "vial" as const, label: "Cost per vial 1", note: "+37.5% margin" },
   {
     key: "threeMonth" as const,
-    label: `3-month (${VIALS_IN_3_MONTH} vials)`,
+    label: "Cost per vial 2",
     note: "+30% margin",
   },
   {
     key: "bulk" as const,
-    label: `Bulk (${VIALS_IN_BULK} vials)`,
+    label: "Cost per vial 3",
     note: "+22.5% margin",
   },
 ];

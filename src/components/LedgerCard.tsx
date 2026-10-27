@@ -1,4 +1,4 @@
-import { formatMoney, VIALS_IN_3_MONTH, VIALS_IN_BULK } from "@/lib/pricing";
+import { formatMoney } from "@/lib/pricing";
 import type { Product } from "@/lib/products-db";
 
 export default function LedgerCard({
@@ -24,23 +24,23 @@ export default function LedgerCard({
           </div>
         ))}
         <div className="ledger-row">
-          <span>Cost per vial</span>
+          <span>Base cost per vial</span>
           <span>{formatMoney(product.cost)}</span>
         </div>
         <div className={`ledger-row margin${highlight === "vial" ? " is-active" : ""}`}>
-          <span>1 vial · +37.5%</span>
+          <span>Cost per vial 1 · +37.5%</span>
           <span>{formatMoney(product.prices.vial)}</span>
         </div>
         <div className={`ledger-row margin${highlight === "threeMonth" ? " is-active" : ""}`}>
-          <span>3-month ({VIALS_IN_3_MONTH} vials) · +30%</span>
+          <span>Cost per vial 2 · +30%</span>
           <span>{formatMoney(product.prices.threeMonth)}</span>
         </div>
         <div className={`ledger-row margin${highlight === "bulk" ? " is-active" : ""}`}>
-          <span>Bulk ({VIALS_IN_BULK} vials) · +22.5%</span>
+          <span>Cost per vial 3 · +22.5%</span>
           <span>{formatMoney(product.prices.bulk)}</span>
         </div>
         <div className="ledger-total">
-          <span className="label">Starting at 1 vial</span>
+          <span className="label">Starting at vial 1</span>
           <span className="amount">{formatMoney(product.prices.vial)}</span>
         </div>
       </div>

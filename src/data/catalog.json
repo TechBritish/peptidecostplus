@@ -1,85 +1,5 @@
 [
   {
-    "slug": "retatrutide-10mg",
-    "name": "Retatrutide",
-    "dose": "10 mg",
-    "sku": "PC-RETA-10",
-    "category": "glp1",
-    "sourcing": 14.87,
-    "testing": 5.52,
-    "packaging": 3.6
-  },
-  {
-    "slug": "retatrutide-20mg",
-    "name": "Retatrutide",
-    "dose": "20 mg",
-    "sku": "PC-RETA-20",
-    "category": "glp1",
-    "sourcing": 19.65,
-    "testing": 7.29,
-    "packaging": 4.75
-  },
-  {
-    "slug": "retatrutide-40mg",
-    "name": "Retatrutide",
-    "dose": "40 mg",
-    "sku": "PC-RETA-40",
-    "category": "glp1",
-    "sourcing": 23.86,
-    "testing": 8.85,
-    "packaging": 5.78
-  },
-  {
-    "slug": "semaglutide-20mg",
-    "name": "Semaglutide",
-    "dose": "20 mg",
-    "sku": "PC-SEMA-20",
-    "category": "glp1",
-    "sourcing": 16.42,
-    "testing": 6.09,
-    "packaging": 3.98
-  },
-  {
-    "slug": "semaglutide-30mg",
-    "name": "Semaglutide",
-    "dose": "30 mg",
-    "sku": "PC-SEMA-30",
-    "category": "glp1",
-    "sourcing": 63.84,
-    "testing": 23.68,
-    "packaging": 15.44
-  },
-  {
-    "slug": "tirzepatide-15mg",
-    "name": "Tirzepatide",
-    "dose": "15 mg",
-    "sku": "PC-TIRZ-15",
-    "category": "glp1",
-    "sourcing": 14.87,
-    "testing": 5.52,
-    "packaging": 3.6
-  },
-  {
-    "slug": "tirzepatide-30mg",
-    "name": "Tirzepatide",
-    "dose": "30 mg",
-    "sku": "PC-TIRZ-30",
-    "category": "glp1",
-    "sourcing": 20.14,
-    "testing": 7.47,
-    "packaging": 4.88
-  },
-  {
-    "slug": "tirzepatide-60mg",
-    "name": "Tirzepatide",
-    "dose": "60 mg",
-    "sku": "PC-TIRZ-60",
-    "category": "glp1",
-    "sourcing": 27.89,
-    "testing": 10.35,
-    "packaging": 6.74
-  },
-  {
     "slug": "5-amino-1mq-10mg",
     "name": "5-Amino-1MQ",
     "dose": "10 mg",
@@ -87,7 +7,10 @@
     "category": "performance",
     "sourcing": 11.62,
     "testing": 4.31,
-    "packaging": 2.8
+    "packaging": 2.8,
+    "price1": 25.76,
+    "price2": 25.31,
+    "price3": 24.86
   },
   {
     "slug": "aod-9604-10mg",
@@ -97,7 +20,10 @@
     "category": "performance",
     "sourcing": 17.45,
     "testing": 6.47,
-    "packaging": 4.22
+    "packaging": 4.22,
+    "price1": 38.69,
+    "price2": 37.53,
+    "price3": 36.38
   },
   {
     "slug": "ara-290-10mg",
@@ -107,7 +33,10 @@
     "category": "performance",
     "sourcing": 13.94,
     "testing": 5.17,
-    "packaging": 3.38
+    "packaging": 3.38,
+    "price1": 30.92,
+    "price2": 30.19,
+    "price3": 29.45
   },
   {
     "slug": "bpc-157-10mg",
@@ -117,7 +46,36 @@
     "category": "performance",
     "sourcing": 13.04,
     "testing": 4.84,
-    "packaging": 3.15
+    "packaging": 3.15,
+    "price1": 28.92,
+    "price2": 28.3,
+    "price3": 27.68
+  },
+  {
+    "slug": "bpc-157-tb-500-10mg-plus-10mg",
+    "name": "BPC-157 / TB-500",
+    "dose": "10 + 10 mg",
+    "sku": "PC-BPC1-10-2",
+    "category": "blends",
+    "sourcing": 18.28,
+    "testing": 6.78,
+    "packaging": 4.42,
+    "price1": 40.54,
+    "price2": 39.29,
+    "price3": 38.03
+  },
+  {
+    "slug": "cjc-1295-plus-ipamorelin-10mg-plus-10mg",
+    "name": "CJC-1295 + Ipamorelin",
+    "dose": "10 + 10 mg",
+    "sku": "PC-CJC1-10-2",
+    "category": "blends",
+    "sourcing": 19.52,
+    "testing": 7.24,
+    "packaging": 4.72,
+    "price1": 43.29,
+    "price2": 41.89,
+    "price3": 40.48
   },
   {
     "slug": "cjc-1295-no-dac-10mg",
@@ -127,17 +85,10 @@
     "category": "performance",
     "sourcing": 16.89,
     "testing": 6.26,
-    "packaging": 4.09
-  },
-  {
-    "slug": "delta-sleep-inducing-peptide-dsip-5mg",
-    "name": "Delta Sleep-Inducing Peptide",
-    "dose": "5 mg",
-    "sku": "PC-DELT-5",
-    "category": "performance",
-    "sourcing": 12.08,
-    "testing": 4.48,
-    "packaging": 2.92
+    "packaging": 4.09,
+    "price1": 37.45,
+    "price2": 36.36,
+    "price3": 35.27
   },
   {
     "slug": "delta-sleep-inducing-peptide-dsip-10mg",
@@ -147,7 +98,23 @@
     "category": "performance",
     "sourcing": 13.63,
     "testing": 5.06,
-    "packaging": 3.3
+    "packaging": 3.3,
+    "price1": 30.23,
+    "price2": 29.54,
+    "price3": 28.84
+  },
+  {
+    "slug": "delta-sleep-inducing-peptide-dsip-5mg",
+    "name": "Delta Sleep-Inducing Peptide",
+    "dose": "5 mg",
+    "sku": "PC-DELT-5",
+    "category": "performance",
+    "sourcing": 12.08,
+    "testing": 4.48,
+    "packaging": 2.92,
+    "price1": 26.79,
+    "price2": 26.29,
+    "price3": 25.78
   },
   {
     "slug": "epithalon-10mg",
@@ -157,7 +124,10 @@
     "category": "performance",
     "sourcing": 13.01,
     "testing": 4.83,
-    "packaging": 3.14
+    "packaging": 3.14,
+    "price1": 28.85,
+    "price2": 28.24,
+    "price3": 27.62
   },
   {
     "slug": "epithalon-50mg",
@@ -167,7 +137,10 @@
     "category": "performance",
     "sourcing": 22,
     "testing": 8.16,
-    "packaging": 5.32
+    "packaging": 5.32,
+    "price1": 48.79,
+    "price2": 47.09,
+    "price3": 45.38
   },
   {
     "slug": "follistatin-1mg",
@@ -187,7 +160,10 @@
     "category": "performance",
     "sourcing": 11.77,
     "testing": 4.37,
-    "packaging": 2.84
+    "packaging": 2.84,
+    "price1": 26.1,
+    "price2": 25.64,
+    "price3": 25.17
   },
   {
     "slug": "ghrp-2-10mg",
@@ -197,7 +173,10 @@
     "category": "performance",
     "sourcing": 11,
     "testing": 4.08,
-    "packaging": 2.66
+    "packaging": 2.66,
+    "price1": 24.39,
+    "price2": 24.01,
+    "price3": 23.64
   },
   {
     "slug": "ghrp-6-10mg",
@@ -207,7 +186,23 @@
     "category": "performance",
     "sourcing": 11,
     "testing": 4.08,
-    "packaging": 2.66
+    "packaging": 2.66,
+    "price1": 24.39,
+    "price2": 24.01,
+    "price3": 23.64
+  },
+  {
+    "slug": "glow-bpc-157-10mg-plus-ghk-cu-50mg-plus-tb-500-10mg",
+    "name": "GLOW",
+    "dose": "10 + 50 + 10 mg",
+    "sku": "PC-GLOW-10",
+    "category": "blends",
+    "sourcing": 20.92,
+    "testing": 7.76,
+    "packaging": 5.06,
+    "price1": 46.39,
+    "price2": 44.81,
+    "price3": 43.24
   },
   {
     "slug": "igf-1-lr3-1mg",
@@ -217,7 +212,10 @@
     "category": "performance",
     "sourcing": 20.92,
     "testing": 7.76,
-    "packaging": 5.06
+    "packaging": 5.06,
+    "price1": 46.39,
+    "price2": 44.81,
+    "price3": 43.24
   },
   {
     "slug": "ipamorelin-10mg",
@@ -227,7 +225,10 @@
     "category": "performance",
     "sourcing": 13.32,
     "testing": 4.94,
-    "packaging": 3.22
+    "packaging": 3.22,
+    "price1": 29.54,
+    "price2": 28.89,
+    "price3": 28.23
   },
   {
     "slug": "kisspeptin-10mg",
@@ -237,7 +238,23 @@
     "category": "performance",
     "sourcing": 12.54,
     "testing": 4.65,
-    "packaging": 3.04
+    "packaging": 3.04,
+    "price1": 27.82,
+    "price2": 27.26,
+    "price3": 26.7
+  },
+  {
+    "slug": "klow-bpc-157-10mg-plus-ghk-cu-50mg-plus-kpv-10mg-plus-tb-500-10mg",
+    "name": "KLOW",
+    "dose": "10 + 50 + 10 + 10 mg",
+    "sku": "PC-KLOW-10",
+    "category": "blends",
+    "sourcing": 22.78,
+    "testing": 8.45,
+    "packaging": 5.5,
+    "price1": 50.51,
+    "price2": 48.71,
+    "price3": 46.91
   },
   {
     "slug": "kpv-10mg",
@@ -247,7 +264,10 @@
     "category": "performance",
     "sourcing": 12.86,
     "testing": 4.77,
-    "packaging": 3.1
+    "packaging": 3.1,
+    "price1": 28.51,
+    "price2": 27.91,
+    "price3": 27.31
   },
   {
     "slug": "ll-37-5mg",
@@ -257,7 +277,10 @@
     "category": "performance",
     "sourcing": 13.78,
     "testing": 5.11,
-    "packaging": 3.34
+    "packaging": 3.34,
+    "price1": 30.57,
+    "price2": 29.86,
+    "price3": 29.15
   },
   {
     "slug": "melanotan-1-10mg",
@@ -267,7 +290,10 @@
     "category": "performance",
     "sourcing": 11.3,
     "testing": 4.19,
-    "packaging": 2.74
+    "packaging": 2.74,
+    "price1": 25.07,
+    "price2": 24.66,
+    "price3": 24.25
   },
   {
     "slug": "melanotan-2-10mg",
@@ -277,7 +303,10 @@
     "category": "performance",
     "sourcing": 10.69,
     "testing": 3.96,
-    "packaging": 2.59
+    "packaging": 2.59,
+    "price1": 23.7,
+    "price2": 23.36,
+    "price3": 23.02
   },
   {
     "slug": "mots-c-10mg",
@@ -287,7 +316,10 @@
     "category": "performance",
     "sourcing": 13.38,
     "testing": 4.96,
-    "packaging": 3.25
+    "packaging": 3.25,
+    "price1": 29.68,
+    "price2": 29.02,
+    "price3": 28.35
   },
   {
     "slug": "mots-c-40mg",
@@ -297,7 +329,10 @@
     "category": "performance",
     "sourcing": 29.9,
     "testing": 11.09,
-    "packaging": 7.24
+    "packaging": 7.24,
+    "price1": 66.32,
+    "price2": 63.66,
+    "price3": 61
   },
   {
     "slug": "nad-plus-1000mg",
@@ -307,7 +342,10 @@
     "category": "performance",
     "sourcing": 16.73,
     "testing": 6.21,
-    "packaging": 4.04
+    "packaging": 4.04,
+    "price1": 37.1,
+    "price2": 36.04,
+    "price3": 34.97
   },
   {
     "slug": "oxytocin-10mg",
@@ -317,7 +355,23 @@
     "category": "performance",
     "sourcing": 13.63,
     "testing": 5.06,
-    "packaging": 3.3
+    "packaging": 3.3,
+    "price1": 30.23,
+    "price2": 29.54,
+    "price3": 28.84
+  },
+  {
+    "slug": "pinealon-20mg",
+    "name": "Pinealon",
+    "dose": "20 mg",
+    "sku": "PC-PINE-20",
+    "category": "bioregulators",
+    "sourcing": 17.47,
+    "testing": 6.48,
+    "packaging": 4.23,
+    "price1": 38.75,
+    "price2": 37.6,
+    "price3": 36.44
   },
   {
     "slug": "pt141-10mg",
@@ -327,7 +381,49 @@
     "category": "performance",
     "sourcing": 14.87,
     "testing": 5.52,
-    "packaging": 3.6
+    "packaging": 3.6,
+    "price1": 32.98,
+    "price2": 32.14,
+    "price3": 31.29
+  },
+  {
+    "slug": "retatrutide-10mg",
+    "name": "Retatrutide",
+    "dose": "10 mg",
+    "sku": "PC-RETA-10",
+    "category": "glp1",
+    "sourcing": 14.87,
+    "testing": 5.52,
+    "packaging": 3.6,
+    "price1": 32.98,
+    "price2": 32.14,
+    "price3": 31.29
+  },
+  {
+    "slug": "retatrutide-20mg",
+    "name": "Retatrutide",
+    "dose": "20 mg",
+    "sku": "PC-RETA-20",
+    "category": "glp1",
+    "sourcing": 19.65,
+    "testing": 7.29,
+    "packaging": 4.75,
+    "price1": 43.57,
+    "price2": 42.15,
+    "price3": 40.72
+  },
+  {
+    "slug": "retatrutide-40mg",
+    "name": "Retatrutide",
+    "dose": "40 mg",
+    "sku": "PC-RETA-40",
+    "category": "glp1",
+    "sourcing": 23.86,
+    "testing": 8.85,
+    "packaging": 5.78,
+    "price1": 52.92,
+    "price2": 50.99,
+    "price3": 49.05
   },
   {
     "slug": "selank-10mg",
@@ -337,7 +433,46 @@
     "category": "performance",
     "sourcing": 13.32,
     "testing": 4.94,
-    "packaging": 3.22
+    "packaging": 3.22,
+    "price1": 29.54,
+    "price2": 28.89,
+    "price3": 28.23
+  },
+  {
+    "slug": "selank-semax-10mg-plus-10mg",
+    "name": "Selank / Semax",
+    "dose": "10 + 10 mg",
+    "sku": "PC-SELA-10-2",
+    "category": "blends",
+    "sourcing": 19.21,
+    "testing": 7.13,
+    "packaging": 4.64,
+    "price1": 42.6,
+    "price2": 41.24,
+    "price3": 39.87
+  },
+  {
+    "slug": "semaglutide-20mg",
+    "name": "Semaglutide",
+    "dose": "20 mg",
+    "sku": "PC-SEMA-20",
+    "category": "glp1",
+    "sourcing": 16.42,
+    "testing": 6.09,
+    "packaging": 3.98,
+    "price1": 36.42,
+    "price2": 35.39,
+    "price3": 34.35
+  },
+  {
+    "slug": "semaglutide-30mg",
+    "name": "Semaglutide",
+    "dose": "30 mg",
+    "sku": "PC-SEMA-30",
+    "category": "glp1",
+    "sourcing": 63.84,
+    "testing": 23.68,
+    "packaging": 15.44
   },
   {
     "slug": "semax-10mg",
@@ -347,7 +482,10 @@
     "category": "performance",
     "sourcing": 13.32,
     "testing": 4.94,
-    "packaging": 3.22
+    "packaging": 3.22,
+    "price1": 29.54,
+    "price2": 28.89,
+    "price3": 28.23
   },
   {
     "slug": "sermorelin-10mg",
@@ -367,7 +505,10 @@
     "category": "performance",
     "sourcing": 14.81,
     "testing": 5.49,
-    "packaging": 3.58
+    "packaging": 3.58,
+    "price1": 32.84,
+    "price2": 32.01,
+    "price3": 31.17
   },
   {
     "slug": "ss-31-50mg",
@@ -377,7 +518,10 @@
     "category": "performance",
     "sourcing": 40.29,
     "testing": 14.95,
-    "packaging": 9.74
+    "packaging": 9.74,
+    "price1": 89.35,
+    "price2": 85.44,
+    "price3": 81.52
   },
   {
     "slug": "tb-500-10mg",
@@ -387,7 +531,10 @@
     "category": "performance",
     "sourcing": 21.38,
     "testing": 7.93,
-    "packaging": 5.18
+    "packaging": 5.18,
+    "price1": 47.42,
+    "price2": 45.79,
+    "price3": 44.15
   },
   {
     "slug": "tesamorelin-10mg",
@@ -397,57 +544,10 @@
     "category": "performance",
     "sourcing": 23.86,
     "testing": 8.85,
-    "packaging": 5.78
-  },
-  {
-    "slug": "thymosin-alpha-1-5mg",
-    "name": "Thymosin Alpha 1",
-    "dose": "5 mg",
-    "sku": "PC-THYM-5",
-    "category": "performance",
-    "sourcing": 15.83,
-    "testing": 5.87,
-    "packaging": 3.83
-  },
-  {
-    "slug": "vip-10mg",
-    "name": "VIP",
-    "dose": "10 mg",
-    "sku": "PC-VIP-10",
-    "category": "performance",
-    "sourcing": 15.96,
-    "testing": 5.92,
-    "packaging": 3.86
-  },
-  {
-    "slug": "bpc-157-tb-500-10mg-plus-10mg",
-    "name": "BPC-157 / TB-500",
-    "dose": "10 + 10 mg",
-    "sku": "PC-BPC1-10-2",
-    "category": "blends",
-    "sourcing": 18.28,
-    "testing": 6.78,
-    "packaging": 4.42
-  },
-  {
-    "slug": "cjc-1295-plus-ipamorelin-10mg-plus-10mg",
-    "name": "CJC-1295 + Ipamorelin",
-    "dose": "10 + 10 mg",
-    "sku": "PC-CJC1-10-2",
-    "category": "blends",
-    "sourcing": 19.52,
-    "testing": 7.24,
-    "packaging": 4.72
-  },
-  {
-    "slug": "glow-bpc-157-10mg-plus-ghk-cu-50mg-plus-tb-500-10mg",
-    "name": "GLOW",
-    "dose": "10 + 50 + 10 mg",
-    "sku": "PC-GLOW-10",
-    "category": "blends",
-    "sourcing": 20.92,
-    "testing": 7.76,
-    "packaging": 5.06
+    "packaging": 5.78,
+    "price1": 52.92,
+    "price2": 50.99,
+    "price3": 49.05
   },
   {
     "slug": "tesamorelin-plus-ipamorelin-5mg-plus-5mg",
@@ -457,36 +557,74 @@
     "category": "blends",
     "sourcing": 21.22,
     "testing": 7.87,
-    "packaging": 5.14
+    "packaging": 5.14,
+    "price1": 47.07,
+    "price2": 45.46,
+    "price3": 43.85
   },
   {
-    "slug": "klow-bpc-157-10mg-plus-ghk-cu-50mg-plus-kpv-10mg-plus-tb-500-10mg",
-    "name": "KLOW",
-    "dose": "10 + 50 + 10 + 10 mg",
-    "sku": "PC-KLOW-10",
-    "category": "blends",
-    "sourcing": 22.78,
-    "testing": 8.45,
-    "packaging": 5.5
+    "slug": "thymosin-alpha-1-5mg",
+    "name": "Thymosin Alpha 1",
+    "dose": "5 mg",
+    "sku": "PC-THYM-5",
+    "category": "performance",
+    "sourcing": 15.83,
+    "testing": 5.87,
+    "packaging": 3.83,
+    "price1": 35.11,
+    "price2": 34.15,
+    "price3": 33.19
   },
   {
-    "slug": "selank-semax-10mg-plus-10mg",
-    "name": "Selank / Semax",
-    "dose": "10 + 10 mg",
-    "sku": "PC-SELA-10-2",
-    "category": "blends",
-    "sourcing": 19.21,
-    "testing": 7.13,
-    "packaging": 4.64
+    "slug": "tirzepatide-15mg",
+    "name": "Tirzepatide",
+    "dose": "15 mg",
+    "sku": "PC-TIRZ-15",
+    "category": "glp1",
+    "sourcing": 14.87,
+    "testing": 5.52,
+    "packaging": 3.6,
+    "price1": 32.98,
+    "price2": 32.14,
+    "price3": 31.29
   },
   {
-    "slug": "pinealon-20mg",
-    "name": "Pinealon",
-    "dose": "20 mg",
-    "sku": "PC-PINE-20",
-    "category": "bioregulators",
-    "sourcing": 17.47,
-    "testing": 6.48,
-    "packaging": 4.23
+    "slug": "tirzepatide-30mg",
+    "name": "Tirzepatide",
+    "dose": "30 mg",
+    "sku": "PC-TIRZ-30",
+    "category": "glp1",
+    "sourcing": 20.14,
+    "testing": 7.47,
+    "packaging": 4.88,
+    "price1": 44.67,
+    "price2": 43.19,
+    "price3": 41.7
+  },
+  {
+    "slug": "tirzepatide-60mg",
+    "name": "Tirzepatide",
+    "dose": "60 mg",
+    "sku": "PC-TIRZ-60",
+    "category": "glp1",
+    "sourcing": 27.89,
+    "testing": 10.35,
+    "packaging": 6.74,
+    "price1": 61.85,
+    "price2": 59.44,
+    "price3": 57.02
+  },
+  {
+    "slug": "vip-10mg",
+    "name": "VIP",
+    "dose": "10 mg",
+    "sku": "PC-VIP-10",
+    "category": "performance",
+    "sourcing": 15.96,
+    "testing": 5.92,
+    "packaging": 3.86,
+    "price1": 35.39,
+    "price2": 34.41,
+    "price3": 33.44
   }
 ]

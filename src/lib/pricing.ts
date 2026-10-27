@@ -39,6 +39,7 @@ export function computePricing(
   sourcing: number,
   testing: number,
   packaging: number,
+  priceOverride?: { price1?: number; price2?: number; price3?: number },
 ): PriceBreakdown {
   const costBreakdown: CostLine[] = [
     { label: "Sourcing & raw material", amount: sourcing },
@@ -46,9 +47,22 @@ export function computePricing(
     { label: "Cold-chain packaging & shipping", amount: packaging },
   ];
   const cost = round2(sourcing + testing + packaging);
-  const vial = round2(cost * (1 + MARGIN.vial));
-  const threeMonth = round2(cost * VIALS_IN_3_MONTH * (1 + MARGIN.threeMonth));
-  const bulk = round2(cost * VIALS_IN_BULK * (1 + MARGIN.bulk));
+
+  // Prefer the client's exact published per-vial tier prices (from the
+  // pricing PDF) when available, instead of re-deriving them from the cost
+  // breakdown, so the site matches the PDF to the cent.
+  const vial =
+    priceOverride?.price1 !== undefined
+      ? priceOverride.price1
+      : round2(cost * (1 + MARGIN.vial));
+  const threeMonth =
+    priceOverride?.price2 !== undefined
+      ? priceOverride.price2
+      : round2(cost * (1 + MARGIN.threeMonth));
+  const bulk =
+    priceOverride?.price3 !== undefined
+      ? priceOverride.price3
+      : round2(cost * (1 + MARGIN.bulk));
 
   return {
     cost,
@@ -56,8 +70,8 @@ export function computePricing(
     prices: { vial, threeMonth, bulk },
     margins: {
       vial: round2(vial - cost),
-      threeMonth: round2(threeMonth - cost * VIALS_IN_3_MONTH),
-      bulk: round2(bulk - cost * VIALS_IN_BULK),
+      threeMonth: round2(threeMonth - cost),
+      bulk: round2(bulk - cost),
     },
   };
 }

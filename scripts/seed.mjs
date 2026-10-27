@@ -22,6 +22,9 @@ const ProductVariantSchema = new mongoose.Schema(
     sourcing: { type: Number, required: true },
     testing: { type: Number, required: true },
     packaging: { type: Number, required: true },
+    price1: { type: Number },
+    price2: { type: Number },
+    price3: { type: Number },
   },
   { _id: false },
 );
@@ -139,6 +142,9 @@ async function main() {
         sourcing: r.sourcing,
         testing: r.testing,
         packaging: r.packaging,
+        ...(r.price1 !== undefined ? { price1: r.price1 } : {}),
+        ...(r.price2 !== undefined ? { price2: r.price2 } : {}),
+        ...(r.price3 !== undefined ? { price3: r.price3 } : {}),
       })),
       sortOrder: sortOrder++,
     };
